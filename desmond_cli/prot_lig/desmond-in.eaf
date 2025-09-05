@@ -1,0 +1,369 @@
+Keywords = [
+   {RMSD = {
+       ASL = "(((protein) and backbone) and not (atom.ele H) and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((protein) and sidechain and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "(((protein) and backbone ) and ( atom.ptype ' CA ') and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((protein) and not (atom.ele H) and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "m.n 2"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Ligand
+       Tab = pl_rmsd_tab
+       Type = Ligand
+       Unit = Angstrom
+       UseSymmetry = true
+    }
+   }
+
+   {RMSD = {
+       ASL = "m.n 2"
+       FitBy = "(protein)"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Ligand
+       Tab = pl_rmsd_tab
+       Type = Ligand
+       Unit = Angstrom
+       UseSymmetry = true
+    }
+   }
+
+   {SecondaryStructure = {
+       ASL = "((protein) and not (m.n 2))"
+       Legend = "-1: NONE; 0: LOOP; 1: HELIX; 2: STRAND; 3:TURN"
+       Panel = pl_interact_survey
+       SelectionType = "((protein) and not (m.n 2))"
+       Tab = p_sse_tab
+       Type = ASL
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((protein) and backbone) and not (atom.ele H) and not (m.n 2))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((protein) and sidechain and not (m.n 2))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((protein) and backbone ) and ( atom.ptype ' CA ') and not (m.n 2))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((protein) and not (atom.ele H) and not (m.n 2))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (m.n 2))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "m.n 2 and not atom.e H"
+       FitBy = "m.n 2 and not atom.e H"
+       Frame = 0
+       Panel = pl_interact_survey
+       Tab = l_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "m.n 2 and not atom.e H"
+       FitBy = "(protein)"
+       Frame = 0
+       Panel = pl_interact_survey
+       Tab = l_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {ProtLigInter = {
+       ASL = "(protein)"
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = pl_inter_tab
+    }
+   }
+
+   {ProtProtInter = {
+       ASL = "(protein)"
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7931
+       a2 = 7926
+       a3 = 7923
+       a4 = 7919
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7934
+       a2 = 7937
+       a3 = 7938
+       a4 = 7940
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7937
+       a2 = 7938
+       a3 = 7940
+       a4 = 7942
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7938
+       a2 = 7940
+       a3 = 7942
+       a4 = 7943
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7940
+       a2 = 7942
+       a3 = 7943
+       a4 = 7950
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7940
+       a2 = 7942
+       a3 = 7956
+       a4 = 7958
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7949
+       a2 = 7946
+       a3 = 7947
+       a4 = 7948
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7942
+       a2 = 7956
+       a3 = 7958
+       a4 = 7960
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7956
+       a2 = 7958
+       a3 = 7960
+       a4 = 7961
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7962
+       a2 = 7963
+       a3 = 7964
+       a4 = 7965
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7972
+       a2 = 7975
+       a3 = 7976
+       a4 = 7979
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7975
+       a2 = 7976
+       a3 = 7979
+       a4 = 7980
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 7976
+       a2 = 7979
+       a3 = 7980
+       a4 = 7984
+    }
+   }
+
+   {LigandHBonds = {
+       ASL1 = "m.n 2"
+       Name = "Intramolecular Hydrogen Bonds"
+       Panel = pl_interact_survey
+       ReturnHBonds = true
+       Tab = l_properties_tab
+       Type = ASL
+       Unit = "Numb. of HBonds"
+    }
+   }
+
+   {Molecular_Surface_Area = {
+       ASL = "m.n 2"
+       Grid_Spacing = 0.5
+       Panel = pl_interact_survey
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {SA_Surface_Area = {
+       ASL = "m.n 2"
+       Exclude_ASL = "not ((protein) or (m.n 2) or (ions) or (water) or (metals) or (metalloids))"
+       Panel = pl_interact_survey
+       Resolution = 0.3
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {Polar_Surface_Area = {
+       ASL = "m.n 2"
+       Panel = pl_interact_survey
+       Resolution = 0.3
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {Rad_Gyration = {
+       ASL = "m.n 2"
+       Panel = pl_interact_survey
+       Tab = l_properties_tab
+       Unit = Angstrom
+    }
+   }
+]
+LigandASL = "m.n 2"
+ProteinASL = "(protein)"
+Trajectory = "desmond-out.cms"

@@ -1,0 +1,146 @@
+INFO: Running analysis tools ...
+initialize analysis tools ['RMSD', 'RMSD', 'RMSD', 'RMSD', 'LigandRMSD', 'LigandRMSD', 'SecondaryStructure', 'RMSF', 'RMSF', 'RMSF', 'RMSF', 'RMSF', 'RMSF', 'ProtLigInteractionFinder', 'ProteinProteinInteractionsFinder', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'Dihedral', 'HydrogenBondFinder', 'MolecularSurfaceArea', 'SolventAccessibleSurfaceArea', 'PolarSurfaceArea', 'RadiusOfGyration']
+perform analysis ...
+PL-interactions for frame: 0
+PL-interactions for frame: 1
+PL-interactions for frame: 2
+PL-interactions for frame: 3
+PL-interactions for frame: 4
+PL-interactions for frame: 5
+PL-interactions for frame: 6
+PL-interactions for frame: 7
+PL-interactions for frame: 8
+PL-interactions for frame: 9
+PL-interactions for frame: 10
+PL-interactions for frame: 11
+PL-interactions for frame: 12
+PL-interactions for frame: 13
+PL-interactions for frame: 14
+PL-interactions for frame: 15
+PL-interactions for frame: 16
+PL-interactions for frame: 17
+PL-interactions for frame: 18
+PL-interactions for frame: 19
+PL-interactions for frame: 20
+PL-interactions for frame: 21
+PL-interactions for frame: 22
+PL-interactions for frame: 23
+PL-interactions for frame: 24
+PL-interactions for frame: 25
+PL-interactions for frame: 26
+PL-interactions for frame: 27
+PL-interactions for frame: 28
+PL-interactions for frame: 29
+PL-interactions for frame: 30
+PL-interactions for frame: 31
+PL-interactions for frame: 32
+PL-interactions for frame: 33
+PL-interactions for frame: 34
+PL-interactions for frame: 35
+PL-interactions for frame: 36
+PL-interactions for frame: 37
+PL-interactions for frame: 38
+PL-interactions for frame: 39
+PL-interactions for frame: 40
+PL-interactions for frame: 41
+PL-interactions for frame: 42
+PL-interactions for frame: 43
+PL-interactions for frame: 44
+PL-interactions for frame: 45
+PL-interactions for frame: 46
+PL-interactions for frame: 47
+PL-interactions for frame: 48
+PL-interactions for frame: 49
+PL-interactions for frame: 50
+PL-interactions for frame: 51
+PL-interactions for frame: 52
+PL-interactions for frame: 53
+PL-interactions for frame: 54
+PL-interactions for frame: 55
+PL-interactions for frame: 56
+PL-interactions for frame: 57
+PL-interactions for frame: 58
+PL-interactions for frame: 59
+PL-interactions for frame: 60
+PL-interactions for frame: 61
+PL-interactions for frame: 62
+PL-interactions for frame: 63
+PL-interactions for frame: 64
+PL-interactions for frame: 65
+PL-interactions for frame: 66
+PL-interactions for frame: 67
+PL-interactions for frame: 68
+PL-interactions for frame: 69
+PL-interactions for frame: 70
+PL-interactions for frame: 71
+PL-interactions for frame: 72
+PL-interactions for frame: 73
+PL-interactions for frame: 74
+PL-interactions for frame: 75
+PL-interactions for frame: 76
+PL-interactions for frame: 77
+PL-interactions for frame: 78
+PL-interactions for frame: 79
+PL-interactions for frame: 80
+PL-interactions for frame: 81
+PL-interactions for frame: 82
+PL-interactions for frame: 83
+PL-interactions for frame: 84
+PL-interactions for frame: 85
+PL-interactions for frame: 86
+PL-interactions for frame: 87
+PL-interactions for frame: 88
+PL-interactions for frame: 89
+PL-interactions for frame: 90
+PL-interactions for frame: 91
+PL-interactions for frame: 92
+PL-interactions for frame: 93
+PL-interactions for frame: 94
+PL-interactions for frame: 95
+PL-interactions for frame: 96
+PL-interactions for frame: 97
+PL-interactions for frame: 98
+PL-interactions for frame: 99
+PL-interactions for frame: 100
+PL-interactions for frame: 101
+PL-interactions for frame: 102
+PL-interactions for frame: 103
+PL-interactions for frame: 104
+PL-interactions for frame: 105
+PL-interactions for frame: 106
+PL-interactions for frame: 107
+post processing ...
+Processing: RMSD
+Processing: RMSD
+Processing: RMSD
+Processing: RMSD
+Processing: RMSD
+Processing: RMSD
+Processing: SecondaryStructure
+Processing: RMSF
+Processing: RMSF
+Processing: RMSF
+Processing: RMSF
+Processing: RMSF
+Processing: RMSF
+Processing: ProtLigInter
+Processing: ProtProtInter
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: Torsion
+Processing: LigandHBonds
+Processing: Molecular_Surface_Area
+Processing: SA_Surface_Area
+Processing: Polar_Surface_Area
+Processing: Rad_Gyration
+INFO: Analysis complete
