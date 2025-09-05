@@ -1,4 +1,4 @@
-# Some Desmond Molecular CLI
+# Some Desmond Molecular Dynamics CLI
 
 This repository contains some CLI and scripts of Schrödinger's Desmond molecular dynamics software. 
 
