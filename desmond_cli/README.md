@@ -2,7 +2,7 @@
 
 This repository contains comprehensive documentation and scripts for working with Schrödinger's Desmond molecular dynamics software suite.
 
-## 📁 Contents Overview
+## Contents Overview
 
 ### Core Documentation Files
 
@@ -21,7 +21,6 @@ This repository contains comprehensive documentation and scripts for working wit
 |--------|-------------|
 | [`convert_xtc_to_dcd_selected.tcl`](./convert_xtc_to_dcd_selected.tcl) | VMD script for trajectory format conversion |
 
-## 🚀 Quick Start Guide
 
 ### 1. Environment Setup
 ```bash
@@ -36,7 +35,7 @@ source schrodinger.ve/bin/activate
 3. **Simulation**: Run MD simulations
 4. **Analysis**: Analyze trajectories using Python API or command-line tools
 
-## 📊 Key Features Covered
+
 
 ### Trajectory Analysis
 - Python API for advanced analysis
@@ -59,19 +58,19 @@ source schrodinger.ve/bin/activate
 - Grid generation parameters
 - Receptor preparation
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - Schrödinger Suite installation
 - VMD (for trajectory conversion)
 - Python environment with Schrödinger packages
 
-## 📚 Useful Resources
+## Useful Resources
 
 - [Schrödinger Documentation](https://www.schrodinger.com/documentation)
 - [Desmond MD Users Group](https://groups.google.com/g/desmond-md-users)
 - [VMD Extensions](https://github.com/tonigi/vmd_extensions)
 
-## 🔧 Common Commands Quick Reference
+## Common Commands Quick Reference
 
 ```bash
 # Job management
