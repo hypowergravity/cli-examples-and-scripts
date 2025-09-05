@@ -1,6 +1,6 @@
-# Desmond Molecular Dynamics Documentation
+# Some Desmond Molecular CLI
 
-This repository contains comprehensive documentation and scripts for working with Schrödinger's Desmond molecular dynamics software suite.
+This repository contains some CLI and scripts of Schrödinger's Desmond molecular dynamics software. 
 
 ## Contents Overview
 
