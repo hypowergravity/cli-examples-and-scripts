@@ -1,4 +1,4 @@
-# Desmond Python API Usage
+# Desmond Python API Example
 
 ## 1. Setting up Schrödinger Virtual Environment
 
