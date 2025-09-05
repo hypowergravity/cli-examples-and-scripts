@@ -29,41 +29,6 @@ $SCHRODINGER/run schrodinger_virtualenv.py schrodinger.ve
 source schrodinger.ve/bin/activate
 ```
 
-### 2. Basic Workflow
-1. **Protein Preparation**: Use PrepWizard to prepare your protein structure
-2. **System Setup**: Build your molecular system in Desmond
-3. **Simulation**: Run MD simulations
-4. **Analysis**: Analyze trajectories using Python API or command-line tools
-
-
-
-### Trajectory Analysis
-- Python API for advanced analysis
-- VMD to Desmond format conversion
-- RMSD, RMSF, and gyration radius calculations
-- Protein-ligand interaction analysis
-
-### Job Management
-- Job submission and monitoring
-- Status checking commands
-- Log file analysis
-
-### Structure Preparation
-- Protein preparation workflows
-- Binding site definition
-- Protein-ligand complex splitting
-
-### Molecular Docking
-- Glide docking setup
-- Grid generation parameters
-- Receptor preparation
-
-## Prerequisites
-
-- Schrödinger Suite installation
-- VMD (for trajectory conversion)
-- Python environment with Schrödinger packages
-
 ## Useful Resources
 
 - [Schrödinger Documentation](https://www.schrodinger.com/documentation)
@@ -87,5 +52,3 @@ $SCHRODINGER/run -FROM mmshare amber_prm2cms.py -p <prmtop> -c <inpcrd> -o <outp
 ```
 
 ---
-
-*This documentation is organized for efficient reference and workflow execution in computational structural biology projects.*
